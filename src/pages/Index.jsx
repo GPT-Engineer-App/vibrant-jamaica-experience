@@ -94,7 +94,43 @@ const Index = () => {
           </SimpleGrid>
         </Box>
 
-        {/* Footer Section */}
+        {}
+        <Box>
+          <Heading as="h2" size="xl" mb={4}>
+            Google Reviews
+          </Heading>
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={8}>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
+              <Heading as="h3" size="md">
+                John Doe
+              </Heading>
+              <Text mt={2}>"Amazing place! The history and the ice cream are both fantastic."</Text>
+              <Text mt={2} fontSize="sm" color="gray.500">
+                Posted on 2024-05-01
+              </Text>
+            </Box>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
+              <Heading as="h3" size="md">
+                Jane Smith
+              </Heading>
+              <Text mt={2}>"A must-visit when in Jamaica. The gardens are beautiful."</Text>
+              <Text mt={2} fontSize="sm" color="gray.500">
+                Posted on 2024-04-28
+              </Text>
+            </Box>
+            <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={4}>
+              <Heading as="h3" size="md">
+                Alex Johnson
+              </Heading>
+              <Text mt={2}>"Great food and a wonderful atmosphere. Highly recommend the mansion tour."</Text>
+              <Text mt={2} fontSize="sm" color="gray.500">
+                Posted on 2024-04-20
+              </Text>
+            </Box>
+          </SimpleGrid>
+        </Box>
+
+        {}
         <Box textAlign="center" py={10} bg="teal.500" color="white">
           <Text fontSize="lg">Follow Us</Text>
           <HStack spacing={4} justify="center" mt={4}>

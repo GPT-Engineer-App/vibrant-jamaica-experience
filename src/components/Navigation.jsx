@@ -10,6 +10,9 @@ const Navigation = () => {
       <Link as={RouterLink} to="/wedding" fontSize="lg">
         Weddings
       </Link>
+      <Link as={RouterLink} to="/restaurants-and-shops" fontSize="lg">
+        Restaurants & Shops
+      </Link>
     </HStack>
   );
 };

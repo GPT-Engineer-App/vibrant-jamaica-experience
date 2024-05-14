@@ -13,6 +13,9 @@ const Navigation = () => {
       <Link as={RouterLink} to="/restaurants-and-shops" fontSize="lg">
         Restaurants & Shops
       </Link>
+      <Link as={RouterLink} to="/events" fontSize="lg">
+        Events
+      </Link>
     </HStack>
   );
 };
